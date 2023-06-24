@@ -30,7 +30,7 @@
   <tbody>
   @foreach ($user as $users)
     <tr>
-      <th scope="row">{{ $users->id }}</th>
+      <th scope="row">{{ $users->id}}</th>
       <td>{{ $users->name }}</td>
       <td>{{ $users->last_name }}</td>
       <td>
